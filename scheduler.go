@@ -30,6 +30,7 @@ func (scheduler *Scheduler) Init(
 ) {
 	scheduler.scheduleCh = scheduleCh
 	scheduler.workCh = workCh
+	scheduler.cancelCh = cancelCh
 	scheduler.timer = time.NewTicker(time.Millisecond * time.Duration(tickDelayInMs))
 	go func() {
 		for {
