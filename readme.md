@@ -22,7 +22,7 @@ This is a super basic task scheduler written in Go
 
 A thread safe min heap is utilized with a convenience method to get all jobs scheduled to run before a certain time
 
-This is the first bit of code I've written in Go and I had limited time so it has some rough edges
+This is the first bit of code I've written in Go so it has some rough edges right now
 
 It is also is a bit of an adjustment from other languages I've used in the past so there may be some things I haven't quite used in the right way, but I'm looking forward to learning how to better leverage the language
 
