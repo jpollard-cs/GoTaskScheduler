@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	s := MakeAndInitScheduler(MakeNewSafeMinHeap(0))
+	s := MakeAndInitScheduler()
 	go func() {
 		for {
 			s.Schedule(func() {}, rand.Intn(1000))

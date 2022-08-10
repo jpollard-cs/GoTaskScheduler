@@ -8,13 +8,13 @@ import (
 )
 
 // a Job designed for the MinHeap
+// TODO: consider adding a priority and updating
+// the Less method to account for this
 type Job struct {
-	name string
-	// the task to execute for the job
-	task func()
-	// the scheduled time to run the job
-	scheduledTime time.Time
-	index         int // The index of the job in the heap.
+	name          string    // the name of the job
+	task          func()    // the task to execute for the job
+	scheduledTime time.Time // the scheduled time to run the job
+	index         int       // The index of the job in the heap.
 }
 
 type JobHeap []Job
