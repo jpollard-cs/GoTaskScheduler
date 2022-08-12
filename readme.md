@@ -1,5 +1,7 @@
 # Basic Go Task Scheduler
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jpollard-cs/GoTaskScheduler.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jpollard-cs/GoTaskScheduler/alerts/)
+
 ## running the example
 
 to run demo (runs for 10 seconds) just use Run button in repl.it or run the following in the console:
